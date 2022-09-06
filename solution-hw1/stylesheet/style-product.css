@@ -1,0 +1,16 @@
+h3:hover {
+    background-color: yellow;
+}
+
+body,h3 {
+    max-width: max-content;
+    margin: auto;
+    }
+
+.cinnamon {
+    text-align: center;
+}
+
+.cinnamon:hover {
+    background-color: yellow;
+}

@@ -1,0 +1,21 @@
+h3:hover {
+    background-color: yellow;
+    border: none;
+}
+
+body,h3,h4 {
+    max-width: max-content;
+    margin: auto;
+    }
+.cart-items {
+    text-align: center;
+}
+button {
+    align-content: center;
+}
+.footer h4 {
+    display: inline;
+}
+.footer button {
+    float: right;
+}
