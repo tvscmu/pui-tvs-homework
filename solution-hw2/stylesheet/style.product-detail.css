@@ -1,0 +1,52 @@
+h1 {
+    font-weight: lighter;
+    text-align: center;
+    font-size:large;
+}
+
+body {
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav {
+    display:block;
+}
+  
+.brand {
+    flex: 1;
+}
+.nav {
+    flex: 2;
+}
+
+nav:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.product-card{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+}
+
+.Price {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-detail{
+    padding-left: 30px;
+}

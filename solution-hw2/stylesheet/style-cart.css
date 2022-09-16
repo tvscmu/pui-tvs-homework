@@ -1,0 +1,51 @@
+h1 {
+    font-weight: lighter;
+    text-align: center;
+    font-size:large;
+}
+
+body {
+    align-items: center;
+    margin: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.site-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+  
+nav {
+    display:block;
+}
+  
+.brand {
+    flex: 1;
+}
+.nav {
+    flex: 2;
+}
+
+nav:hover{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.checkout {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.checkout > .product-detail{
+    flex-direction: row;
+}
+
+button{
+    border-style: dashed;
+    background-color: white;
+}
