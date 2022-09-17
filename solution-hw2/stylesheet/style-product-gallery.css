@@ -4,6 +4,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   padding-left: 100px;
   padding-right: 100px;
+  max-width: 1200px;
 }
 
 .site-header {
@@ -12,15 +13,34 @@ body {
   align-items: center;
 }
 
-nav {
-  display:block;
+span{
+  margin-left: 50px;
+}
+
+.nav {
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  text-align: end;
+  padding-right: 10px;
+  padding: 30px;
+}
+
+.links{
+  text-decoration: none;
+  font-size: larger;
+}
+
+.links:hover{
+  background-color: yellow;
+  font-weight: bold;
 }
 
 .brand {
-  flex: 1;
+  flex: 0 1 auto;
 }
 .nav {
-  flex: 2;
+  flex: 1 0 auto;
 }
 
 h1 {
@@ -48,6 +68,7 @@ h1 {
 .rolls{
   padding: 10px;
   padding-bottom: 2px;
+  border-image-width: 3px black;
 }
 
 .rolls:hover {
@@ -59,6 +80,14 @@ nav:hover{
   font-weight: bold;
 }
 
-a:hover{
+.rolls:hover{
   font-weight: bold;
+}
+
+.img {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+a {
+  color: black;
 }
