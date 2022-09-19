@@ -117,6 +117,8 @@ button {
     border-color: black;
     background-color: rgb(255, 255, 255);
     font-weight: bold;
+    text-decoration: none;
+    text-align: center;
 }
 
 button:hover {

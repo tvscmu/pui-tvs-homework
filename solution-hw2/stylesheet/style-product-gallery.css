@@ -91,3 +91,8 @@ nav:hover{
 a {
   color: black;
 }
+
+.pr {
+  text-decoration: none;
+  margin-left: 0%;
+}
