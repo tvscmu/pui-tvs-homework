@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <title>Bun Bun bake shop!</title>
+      <link rel="stylesheet" type="text/css" href="./stylesheet/style-cart.css">
+      <script src="rollsdata.js" defer> </script>
+      <script src="cart.js" defer></script>
+      
+
+
+  </head>
+
+  <body>
+    <header class="site-header">
+      <a href="index.html" class="brand"><img src="./Assets/logo-01.svg" alt="Bun Bun logo" height="150"/></a>
+      <div class="nav">
+        <a class="links" href="./index.html">Products</a><span>
+        <a class="links" href="./Shopping-Cart.html">Cart</a></span>
+        </div>
+    </header>
+
+    <h1>Shopping Cart</h1>
+
+    <div class="cart-details">
+      <div class="finalCart">
+        
+      </div>
+      
+
+      <hr>
+    
+      <div class="cart">
+        <div class="total">
+          <p class="totl">Total</p>
+          <p class="price">$ 29.49</p>
+        </div>
+      </div>
+      <div class="button">
+        <button>Checkout</button>
+      </div>
+
+    </div>
+
+    <template id="tempCart">
+      <div class="cart">
+        <div class="cart-image">
+          <img class="img" src="./Assets/original-cinnamon-roll.jpg" alt="original cinnamon" height="80">
+          <button class="removeButton">Remove</button>
+        </div>
+        <div class="columnDiv">
+          <p class="naam">Original Cinnamon Roll</p>
+          <p class="glaz">Glazing: Keep Original</p>
+          <p class="pack">Pack size: 1</p>
+        </div>
+        <p class="prce">$ 2.49</p>
+        
+      </div>
+    </template>
+
+
+  </body>
+</html>
