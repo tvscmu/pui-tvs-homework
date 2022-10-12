@@ -59,7 +59,7 @@ for (let i=0; i<cart.length; i++){
     total=total+rollPrice;
     document.querySelector(".price").innerText="$"+ total;
 
-    let rItem= itemClone.querySelector(".finalCart");
+    let rItem= itemClone.querySelector(".cart");
 
     itemClone.querySelector(".removeButton").onclick=(()=> {
         rItem.remove();
