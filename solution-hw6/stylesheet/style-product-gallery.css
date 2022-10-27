@@ -1,0 +1,98 @@
+body {
+  align-items: center;
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+span{
+  margin-left: 50px;
+}
+
+.nav {
+  border-bottom-color: rgb(0, 0, 0);
+  border-bottom-width: 3px;
+  border-bottom-style: solid;
+  text-align: end;
+  padding-right: 10px;
+  padding: 30px;
+}
+
+.links{
+  text-decoration: none;
+  font-size: larger;
+}
+
+.links:hover{
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.brand {
+  flex: 0 1 auto;
+}
+.nav {
+  flex: 1 0 auto;
+}
+
+h1 {
+  font-weight: lighter;
+  text-align: center;
+  font-size:large;
+}
+
+.first-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.second-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.rolls{
+  padding: 10px;
+  padding-bottom: 2px;
+  border-image-width: 3px black;
+}
+
+.rolls:hover {
+  background-color: yellow;
+}
+
+nav:hover{
+  background-color: yellow;
+  font-weight: bold;
+}
+
+.rolls:hover{
+  font-weight: bold;
+}
+
+.img {
+  border: 2px solid rgb(0, 0, 0);
+}
+
+a {
+  color: black;
+}
+
+.pr {
+  text-decoration: none;
+  margin-left: 0%;
+}
