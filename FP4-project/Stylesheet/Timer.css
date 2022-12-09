@@ -1,5 +1,36 @@
+/* styling for the body of index.html*/
+body {
+  align-items: center;
+  margin: auto;
+  font-family: Arial, joseph 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, sans-serif;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 30px;
+  background-color: white;
+  text-align: center;
+}
+
+/* styling for header class whihc includes logo Name and linkedin logo*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*padding above timer content*/
+#timer {
+  padding-top: 150px;
+}
+
 p {
     display: inline;
     font-size: 40px;
-    margin-top: 0px;
+    padding-top: 150px;
+    font-size: larger;
   }
+
+#demo {
+  font-style: oblique;
+  font-size: 100px;
+  color:black;
+}
